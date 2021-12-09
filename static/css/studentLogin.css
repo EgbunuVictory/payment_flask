@@ -1,0 +1,9 @@
+body{
+    /* background-color: rgb(255, 0, 85); */
+    background-image: url(images/images4.jpg);
+    /* background-repeat: no-repeat; */
+    width: 50%;
+    height: 50vh;
+    background-size:cover;
+    background-attachment: fixed;
+}

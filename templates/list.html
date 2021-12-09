@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/list.css') }}" type="text/css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Student Name</th>
+            <th>Student ID</th>
+            <th>Gender</th>
+            <th>Department</th>
+            <th>Payment</th>
+        </tr>
+
+        {% for student in students %}
+        <tr>
+            <td>{{student.stu_name}}</td>
+            <td>{{student.stu_id}}</td>
+            <td>{{student.stu_gender}}</td>
+            <td>{{student.dept}}</td>
+            <td><a href="/payments">Payments</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

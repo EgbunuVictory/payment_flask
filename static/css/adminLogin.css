@@ -1,0 +1,14 @@
+body{
+    /* background-color: rgb(218, 65, 116); */
+    background-image: url(images/image1.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50vh;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: fantasy;
+    text-decoration: red;
+}

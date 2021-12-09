@@ -1,0 +1,41 @@
+body{
+    background-image: url(images/image7.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50vh;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgba(245, 241, 241, 0.884);
+    /* margin-left: 50%; */
+    /* font-size: 40px; */
+    font-size: 400%;
+    font-style: italic;
+    padding: 10%;
+    
+}
+
+
+.button1{
+    background-color: rgb(255, 0, 85);
+    padding: 10px;
+    border-radius: 40%;
+    margin-top: 3cm;
+}
+
+h3{
+    padding-left: 30%;
+}
+
+.button2{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 40%;
+}
+
+.but{
+    padding-left: 80%;
+    position: relative;    
+}

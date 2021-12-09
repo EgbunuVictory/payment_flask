@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+</head>
+<body style="background-color: rgb(63, 32, 11);">
+    <centre>
+        <div style="background-color: rgb(133, 72, 32); height: 6cm; width: 6cm; border-radius: 14px; margin-left: 15cm; margin-top: 5cm;">
+    <h1 style="color: white;">Make payments</h1>
+    <form action="/payment" method="POST">
+    <input type="text" name="name" placeholder="Student Name">
+    <br>
+    <input type="text" name="bank_name" placeholder="Bank Name">
+    <br>
+    <input type="number" name="account_number" placeholder="Account Number">
+    <br>
+    <input type="number" name="amount" placeholder="Amount">
+    <br>
+    <select name="purpose">
+        <option value="Tuition Fee">Tuition Fee</option>
+        <option value="Admission Fee">Admission Fee</option>
+        <option value="Hostel Fee">Hostel Fee</option>
+        <option value="Exams Fee">Exams Fee</option>
+
+    </select>
+    <br>
+    <input type="submit" value="submit">
+    </form>
+</div>
+    </centre>
+</body>
+</html>
